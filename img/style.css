@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(219, 55%, 41%);
+}
+
+#navbar{
+   background-color: rgb(29, 70, 131);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.425);
+   box-shadow: 2px 2px 3px black;
+}
+
+.margin-top{
+    margin-top: 10rem;
+}
+.margin-bottom{
+    margin-bottom: 10rem;
+}
+
+.avatar{
+    width: 50vh;
+}
+.projetos img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+.projetos img{
+    width: 80%;
+    -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+
+.contato img{
+    width: 10%;
+}
+
+footer{
+    border-top: 1px solid white;
+    height: 70px;
+    background-color: rgb(29, 70, 131);
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .logo{
+        width: 50%;
+    
+    }
+
+    .avatar{
+        width: 30vh;
+    }
+    #sobre{
+        flex-direction: column;
+        text-align: center;
+    }
+    .projetos img{
+        width: 60%;
+    }
+    .projetos-controle{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contato img{
+        width: 20%;
+    }
+}
+
+
+/* @media screen and (max-width: 575px) {
+    .card-group{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card-text{
+        display: none;
+    }
+} */
